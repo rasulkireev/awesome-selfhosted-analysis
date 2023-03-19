@@ -1,6 +1,7 @@
 "use client"
 
 import Search from './components/Search'
+import Footer from './components/Footer'
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
           </div>
         </main>
       </div>
+      <Footer />
     </>
   )
 }
