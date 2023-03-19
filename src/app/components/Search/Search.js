@@ -78,8 +78,8 @@ export default function Search() {
           />
           <SortBy
             items={[
-              { label: 'Stars (asc)', value: 'awesome_selfhosted_repos/sort/stars:asc' },
               { label: 'Stars (desc)', value: 'awesome_selfhosted_repos/sort/stars:desc' },
+              { label: 'Stars (asc)', value: 'awesome_selfhosted_repos/sort/stars:asc' },
             ]}
             classNames={{
               "root":"text-right",
